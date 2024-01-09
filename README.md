@@ -5,7 +5,7 @@ Hello, I have recently created a project, **_Sync_** for fun and for personal pu
 
 Sync is a utility, productivity application, a alternative to normal text editors, simplified, easier to use, built from the popular Electron framework. Sync works fine offline and doesn't store cache but only exporting necessary files such as markdown files and Pdfs. 
 
-I **do not** give permission and agreement for the redistribution of the app.
+MIT so you guys can take the code and do whatever with it
 
 
 
