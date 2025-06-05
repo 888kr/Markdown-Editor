@@ -13,16 +13,17 @@
 </head>
 <body>
   <div class="container">
-    <div class="hotbar">
-      <button id="saveButton" class="button-name">Save</button>
-      <button id="exportMarkdownButton" class="button-name">Export</button>
-      <label for="importMarkdownButton" class="button-name">Open</label>
-      <input type="file" id="importMarkdownButton" accept=".md" class="import" hidden>
-    </div>
+    <button id="saveButton">Save</button>
+    <button id="exportMarkdownButton" style="left: 8rem">Export Markdown</button>
+    <label for="importMarkdownButton" style="bottom: 6rem">Open</label>
+    <input type="file" id="importMarkdownButton" accept=".md" class="import" hidden>
+
 
     <div class="preview-column">
       <textarea id="editor" placeholder="Type Markdown here..." style="border: none"></textarea>
-      <div id="viewer"></div>
+      <div id="viewer" style="margin: auto;
+      max-width: 38rem;
+      padding: 2rem;"></div>
     </div>
   </div>
 
